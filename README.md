@@ -8,7 +8,7 @@ small Javascript library for handling browser _window.location.hash_
 How to use
 ==========
 
--include the zHash.js file in your HTML head.
+-include the zHash.js file in your HTML head. (or add it to your existing JS file)
 
 -use the listen function to assign a JS function when the desired hash is selected: __zHash.listen('myhash', someFunction(){ });__
 
