@@ -1,7 +1,7 @@
 zHash
 =====
 
-small Javascript library for handling browser _window.location.hash_
+small Javascript library for handling browser _window.location.hash_ with backward compatibility for old browsers
 
 
 
@@ -15,3 +15,8 @@ How to use
 -after you finish assigning functions to hashes, execute this function to start monitoring hashes: __zHash.start( 'defaultHash' );__
   
   the 'defaultHash' is optional, it selects the defaultHash if _window.location.hash_ was empty
+
+
+Browsers compatibility
+======================
+Yes, it works even on bloody __IE__ !
