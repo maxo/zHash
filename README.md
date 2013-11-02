@@ -1,7 +1,7 @@
 zHash
 =====
 
-small Javascript library for handling browser _window.location.hash_ with backward compatibility for old browsers
+Tiny Javascript library for handling browser _window.location.hash_ with backward compatibility for old browsers
 
 
 
@@ -20,3 +20,8 @@ How to use
 Browsers compatibility
 ======================
 Yes, it works even on bloody __IE__ !
+
+
+Dependency
+==========
+zHash is pure Javascript, so it doesn't require jQuery or any library. Works side by side perfectly tho.
