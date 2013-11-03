@@ -1,3 +1,13 @@
+/*!
+ * zHash Library v1.0
+ * https://github.com/maxo/zHash
+ *
+ * Released under the GPLv3 license
+ * http://www.gnu.org/licenses/gpl-3.0.html
+ *
+ * Date: 2013-11-4
+ */
+
 var zHash = function() {
 	var functions = new Object();
 	var strip = function(x) {return x.replace('#', '').replace('!','').replace(/\s/g, '_')}
