@@ -12,6 +12,9 @@ How to use
 
 -use the listen function to assign a JS function when the desired hash is selected: __zHash.listen('myhash', someFunction(){ });__
 
+-you can assign a parameter to a hash like this: __zHash.listen('myhash/$', someFunction(myParam){ });__ . the "/$" is processed as a parameter in the hash string. zHash accepts multiple parameters as well: __zHash.listen('myhash/$/$', someFunction(a, b){ });__ . Example of a hash with parameters: http://example.com/index.html#comments/123/741
+
+
 -after you finish assigning functions to hashes, execute this function to start monitoring hashes: __zHash.start( 'defaultHash' );__
   
   the 'defaultHash' is optional, it selects the defaultHash if _window.location.hash_ was empty
