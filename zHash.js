@@ -5,7 +5,7 @@
  * Released under the GPLv3 license
  * http://www.gnu.org/licenses/gpl-3.0.html
  *
- * Date: 2013-12-18
+ * Date: 2014-01-18
  */
 
 var zHash = function() {
